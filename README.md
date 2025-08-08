@@ -171,36 +171,6 @@ The backend provides the following API endpoints:
   - Request body: `{ "message": "your message here" }`
   - Response: `{ "response": "AI response" }`
 
-### Adding Screenshots to Your Repository
-
-To properly showcase your EmpathyAI application, follow these steps:
-
-1. **Create a screenshots directory:**
-   ```bash
-   mkdir screenshots
-   ```
-
-2. **Take screenshots of your application:**
-   - **Main Interface**: Full view of the chat interface
-   - **Conversation Flow**: Example of a therapeutic conversation
-   - **Mobile View**: Responsive design on mobile devices
-   - **Loading State**: AI typing indicator
-   - **Error Handling**: How errors are displayed to users
-
-3. **Recommended screenshot specifications:**
-   - **Format**: PNG or JPG
-   - **Resolution**: 1920x1080 for desktop views, actual device resolution for mobile
-   - **File naming**: Use descriptive names like `main-interface.png`, `conversation-example.png`
-
-4. **Screenshot suggestions:**
-   - `main-interface.png` - Landing page with initial AI greeting
-   - `conversation-example.png` - Active conversation showing multiple exchanges
-   - `mobile-view.png` - Mobile responsive layout
-   - `loading-state.png` - AI typing indicator
-   - `error-handling.png` - Error message display
-
-5. **Update image paths in README:**
-   After adding screenshots, update the image paths in this README file to match your actual file names and locations.
 
 ## 🔧 Configuration
 
